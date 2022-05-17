@@ -31,19 +31,6 @@ class SecondActivity : Activity() {
                 e.printStackTrace()
             }
         }
-
-        // like/unlike functional
-        val imgSwitcher = findViewById<ImageSwitcher>(R.id.like_unlike)
-        imgSwitcher.setOnClickListener {
-            imgSwitcher.showNext()
-        }
-
-        // goto first(main) screen functional
-        val enterBtn = findViewById<View>(R.id.backToScreen2)
-        enterBtn.setOnClickListener {
-            val intent = Intent(this@SecondActivity, MainActivity::class.java)
-            startActivity(intent)
-        }
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

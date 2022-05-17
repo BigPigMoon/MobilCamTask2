@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#081A48"
     android:orientation="vertical">
 
     <TextView
@@ -26,8 +26,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="79dp"
         android:layout_marginTop="20dp"
-        android:src="@drawable/camera"
-        android:tint="@color/allinthisworld"/>
+        android:src="@drawable/camera"/>
 
     <ImageView
         android:layout_width="200dp"
@@ -58,7 +57,7 @@
         android:layout_height="73dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="567dp"
         android:background="@color/allinthisworld" />
 
     <TextView
@@ -67,7 +66,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginStart="161dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="576dp"
         android:text="@string/profil"
         android:textSize="48sp"
         android:textColor="@color/white"
@@ -79,19 +78,37 @@
         android:layout_height="73dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="590dp"
+        android:layout_marginTop="682dp"
         android:background="@color/allinthisworld"
         />
 
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="576dp"
+        android:clipToOutline="true"
+        android:src="@drawable/avatar" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="694dp"
+        android:src="@drawable/setting"/>
 
     <TextView
         android:layout_width="238dp"
         android:layout_height="56dp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="142dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="142dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="590dp"
-        android:text="@string/settings"
+        android:layout_marginTop="691dp"
+        android:text="настройки"
         android:textSize="48sp"
         android:textColor="@color/white"
         android:gravity="top"

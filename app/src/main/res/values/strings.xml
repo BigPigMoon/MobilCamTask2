@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SomeTask</string>
+    <string name="profil">профиль</string>
+    <string name="photoimg">Фотоимидж</string>
+    <string name="hello">Приветвую, Валерий</string>
+    <string name="settings">настройки</string>
+
 </resources>

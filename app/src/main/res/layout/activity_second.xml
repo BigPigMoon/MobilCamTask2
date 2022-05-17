@@ -6,82 +6,28 @@
     android:background="#FFFFFF"
     android:orientation="vertical">
 
-    <View
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/backToScreen2"
-        android:layout_width="47dp"
-        android:layout_height="47dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="14dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="7dp"
-        android:clipToOutline="true"
-        android:background="@drawable/back"
-        />
-
-    <ImageView
-        android:layout_width="61dp"
-        android:layout_height="61dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="14dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="54dp"
-        android:src="@drawable/valera_ava"/>
-
-    <TextView
-        android:layout_width="131dp"
-        android:layout_height="28dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="86dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="76dp"
-        android:textSize="18sp"
-        android:textColor="@color/cardview_dark_background"
-        android:gravity="top"
-        android:text="Пользователь"/>
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="411dp"
-        android:layout_height="408dp"
+        android:layout_width="182dp"
+        android:layout_height="182dp"
         android:layout_alignParentLeft="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="131dp"
-        android:src="@drawable/valera"/>
+        android:src="@drawable/valera_cat"
+        />
 
-
-    <ImageSwitcher
-        android:id="@+id/like_unlike"
-        android:layout_width="44dp"
-        android:layout_height="44dp"
-        android:layout_marginLeft="14dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="555dp">
-
-        <ImageView
-            android:id="@+id/unlike"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/unlike"/>
-
-        <ImageView
-            android:id="@+id/like"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/like"/>
-
-    </ImageSwitcher>
-
-    <EditText
-        android:id="@+id/plain_text_input_login"
-        android:layout_width="381dp"
-        android:layout_height="48dp"
+    <TextView
+        android:layout_width="163dp"
+        android:layout_height="62dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="14dp"
+        android:layout_marginLeft="226dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="616dp"
-        android:background="#C4C4C4"
-        android:text="Оставить комментарий"
-        android:inputType="text" />
+        android:layout_marginTop="120dp"
+        android:gravity="right|top"
+        android:textSize="24sp"
+        android:textColor="@color/allinthisworld"
+        android:text="Здесь мог быть статус"
+        />
 
 </RelativeLayout>

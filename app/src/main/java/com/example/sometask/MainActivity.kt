@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // функция для перехода на след экран
-        val enterBtn = findViewById<View>(R.id.enterBtn)
+        val enterBtn = findViewById<View>(R.id.nextScreenBtn)
         enterBtn.setOnClickListener {
             val intent = Intent(this@MainActivity, SecondActivity::class.java)
             startActivity(intent)
