@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#081A48"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="86dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="top"
+        android:lineHeight="42sp"
+        android:text="Вход"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp" />
+
+    <EditText
+        android:id="@+id/plain_text_input_login"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="301dp"
+        android:background="#ffffff"
+        android:inputType="text" />
+
+<!--Поля для ввода текста в inputType можно указать, что мы будем вводить-->
+    <EditText
+        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="371dp"
+        android:background="#ffffff"
+        android:id="@+id/plain_text_input_password"
+        android:inputType="textPassword"/>
+
+
+    <View
+        android:id="@+id/enterBtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="486dp"
+        android:background="@drawable/rectangle_1" />
+
+    <View
+        android:layout_width="66dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="493dp"
+        android:background="@drawable/enter" />
+
+</RelativeLayout>
