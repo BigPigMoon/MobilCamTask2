@@ -38,14 +38,41 @@ class SecondActivity : Activity() {
         val menuView4: View = findViewById(R.id.menuView4);
         val menuView5: View = findViewById(R.id.menuView5);
 
-        val popupMenu = androidx.appcompat.widget.PopupMenu(this, menuView1)
-
-        popupMenu.inflate(R.menu.popupmenu)
 
         menuView1.setOnClickListener {
+            val popupMenu = androidx.appcompat.widget.PopupMenu(this, menuView1)
+
+            popupMenu.inflate(R.menu.popupmenu)
             popupMenu.show()
         }
 
+        menuView2.setOnClickListener {
+            val popupMenu = androidx.appcompat.widget.PopupMenu(this, menuView2)
+
+            popupMenu.inflate(R.menu.popupmenu)
+            popupMenu.show()
+        }
+
+        menuView3.setOnClickListener {
+            val popupMenu = androidx.appcompat.widget.PopupMenu(this, menuView3)
+
+            popupMenu.inflate(R.menu.popupmenu)
+            popupMenu.show()
+        }
+
+        menuView4.setOnClickListener {
+            val popupMenu = androidx.appcompat.widget.PopupMenu(this, menuView4)
+
+            popupMenu.inflate(R.menu.popupmenu)
+            popupMenu.show()
+        }
+
+        menuView5.setOnClickListener {
+            val popupMenu = androidx.appcompat.widget.PopupMenu(this, menuView5)
+
+            popupMenu.inflate(R.menu.popupmenu)
+            popupMenu.show()
+        }
 
     }
 

@@ -17,5 +17,11 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, SecondActivity::class.java)
             startActivity(intent)
         }
+
+        val enterBtn2 = findViewById<View>(R.id.nextScreenBtn2)
+        enterBtn2.setOnClickListener {
+            val intent = Intent(this@MainActivity, SecondActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
