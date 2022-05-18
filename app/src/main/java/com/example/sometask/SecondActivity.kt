@@ -31,6 +31,22 @@ class SecondActivity : Activity() {
                 e.printStackTrace()
             }
         }
+
+        val menuView1: View = findViewById(R.id.menuView1);
+        val menuView2: View = findViewById(R.id.menuView2);
+        val menuView3: View = findViewById(R.id.menuView3);
+        val menuView4: View = findViewById(R.id.menuView4);
+        val menuView5: View = findViewById(R.id.menuView5);
+
+        val popupMenu = androidx.appcompat.widget.PopupMenu(this, menuView1)
+
+        popupMenu.inflate(R.menu.popupmenu)
+
+        menuView1.setOnClickListener {
+            popupMenu.show()
+        }
+
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

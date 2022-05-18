@@ -1,33 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:orientation="vertical">
+    android:fillViewport="true">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="182dp"
-        android:layout_height="182dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="24dp"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/valera_cat"
-        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
 
-    <TextView
-        android:layout_width="163dp"
-        android:layout_height="62dp"
-        android:layout_alignParentLeft="true"
-        android:layout_marginLeft="226dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="120dp"
-        android:gravity="right|top"
-        android:textSize="24sp"
-        android:textColor="@color/allinthisworld"
-        android:text="Здесь мог быть статус"
-        />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="182dp"
+            android:layout_height="182dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/valera_cat"
+            />
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="163dp"
+            android:layout_height="62dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="226dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="120dp"
+            android:gravity="right|top"
+            android:textSize="24sp"
+            android:textColor="@color/allinthisworld"
+            android:text="Здесь мог быть статус"
+            />
+
+        <View
+            android:id="@+id/menuView1"
+            android:layout_width="411dp"
+            android:layout_height="86dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="232dp"
+            android:background="@color/allinthisworld" />
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="151dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="265dp"
+            android:text="информация"
+            android:textSize="18sp"
+            android:textColor="#9E9E9E"
+            android:gravity="top"
+            />
+
+
+
+        <View
+            android:id="@+id/menuView2"
+            android:layout_width="411dp"
+            android:layout_height="86dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="354dp"
+            android:background="@color/allinthisworld"
+            />
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="151dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="390dp"
+            android:text="просмотр"
+            android:textSize="18sp"
+            android:textColor="#9E9E9E"
+            android:gravity="top"
+            />
+
+
+
+        <View
+            android:id="@+id/menuView3"
+            android:layout_width="411dp"
+            android:layout_height="86dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="476dp"
+            android:background="@color/allinthisworld"
+            />
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="151dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="508dp"
+            android:text="микрофон"
+            android:textSize="18sp"
+            android:textColor="#9E9E9E"
+            android:gravity="top"
+            />
+
+
+
+        <View
+            android:id="@+id/menuView4"
+            android:layout_width="411dp"
+            android:layout_height="86dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="598dp"
+            android:background="@color/allinthisworld"
+            />
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="151dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="625dp"
+            android:text="уведомления"
+            android:textSize="18sp"
+            android:textColor="#9E9E9E"
+            android:gravity="top"
+            />
+
+
+
+        <View
+            android:id="@+id/menuView5"
+            android:layout_width="411dp"
+            android:layout_height="86dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="720dp"
+            android:background="@color/allinthisworld"
+            />
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="21dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="151dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="746dp"
+            android:text="настройки"
+            android:textSize="18sp"
+            android:textColor="#9E9E9E"
+            android:gravity="top"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
